@@ -15,7 +15,7 @@
     "format": "prettier --write 'src/**/*.{js,jsm,jsx,json,css,md}'",
     "test": "mocha test/index",
     "var-to-let": "jscodeshift -t transforms/var-to-let.js src/var-to-let.js -d -p",
-    "fix-mjs-import-paths": "shopt -s globstar && jscodeshift ./src/fix-mjs-import-paths/**/*.mjs -t transforms/fix-mjs-import-paths.js -d -p"
+    "fix-mjs-import-paths": "./transform.sh"
   },
   "devDependencies": {
     "chai": "4.2.0",
