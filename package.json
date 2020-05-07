@@ -1,13 +1,13 @@
 {
-  "name": "spike-x",
+  "name": "fix-mjs-import-paths",
   "version": "1.0.0",
-  "description": "Spike prototype app",
+  "description": "prototype",
   "main": "app.js",
   "author": "ilan@spikedata.co.za",
   "license": "SPIKE",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ilanc/spike-seed-simple"
+    "url": "https://github.com/ilanc/fix-mjs-import-paths"
   },
   "scripts": {
     "fix-format": "npm-run-all fix format",
