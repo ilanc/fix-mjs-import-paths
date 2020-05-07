@@ -1,0 +1,27 @@
+{
+  "name": "spike-x",
+  "version": "1.0.0",
+  "description": "Spike prototype app",
+  "main": "app.js",
+  "author": "ilan@spikedata.co.za",
+  "license": "SPIKE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilanc/spike-seed-simple"
+  },
+  "scripts": {
+    "fix-format": "npm-run-all fix format",
+    "fix": "eslint .",
+    "format": "prettier --write 'src/**/*.{js,jsm,jsx,json,css,md}'",
+    "test": "mocha test/index"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-prettier": "3.1.2",
+    "chai": "4.2.0",
+    "npm-run-all": "4.1.5",
+    "mocha": "6.2.2",
+    "prettier": "1.19.1"
+  }
+}
